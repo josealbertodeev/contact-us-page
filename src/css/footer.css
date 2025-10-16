@@ -1,0 +1,39 @@
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 8%;
+
+    .footer-logo{
+        width: 200px;
+        height: 100%;
+    }
+
+    #footer_link_content{
+        display: flex;
+        gap: 32px;
+
+        .footer-list{
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            list-style: none;
+
+            li{
+                .list-title{
+                   color: var(--third-color-3)
+                }
+
+                .footer-link{
+                    text-decoration: none;
+                    color: #fff;
+                    transition: color 0.3s ease;
+                }
+
+                .footer-link:hover{
+                    color: black;
+                }
+            }
+        }
+    }
+}
